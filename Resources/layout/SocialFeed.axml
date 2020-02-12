@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center">
+  <Button
+      android:text="View Social Posts"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/viewSocialFeedButton"
+      style="@android:style/Holo.ButtonBar.AlertDialog"
+      android:height="70dip"
+      android:padding="15dip"
+      android:layout_gravity="center"
+      android:layout_margin="15dip"
+      android:textAlignment="center"
+      android:textSize="30dip"
+      android:textStyle="bold"
+      android:background="@android:color/holo_blue_dark"
+      android:textColor="@android:color/background_light" />
+  <Button
+      android:text="Publish"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/publishPostButton"
+      style="@android:style/Holo.ButtonBar.AlertDialog"
+      android:height="70dip"
+      android:padding="15dip"
+      android:layout_gravity="center"
+      android:layout_margin="15dip"
+      android:textAlignment="center"
+      android:textSize="30dip"
+      android:textStyle="bold"
+      android:background="@android:color/holo_blue_dark"
+      android:textColor="@android:color/background_light" />
+</LinearLayout>

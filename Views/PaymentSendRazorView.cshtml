@@ -1,0 +1,20 @@
+﻿@model Firebase.Models.PaymentSendModel
+
+<html>
+<body>
+    <h1>
+        Make Payment here
+    </h1>
+</body>
+</html>
+<form action="http://suggestpc.com/test.php?amount=@Model.EntryFee&tourneyID=@Model.TournamentID&participants=@Model.Participants&newParticipant=@Model.NewParticipant&PEmail=@Model.PlayerEmail" method="POST">
+    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="pk_test_8BGblK3z6Y8a4qnOnOe155x5"
+            data-amount=@Model.EntryFee
+            data-name="Ultimate eSports"
+            data-description="Tournament Registration"
+            data-image="https://pcappscart.com/logo2.png"
+            data-locale="auto"
+            data-zip-code="true">
+    </script>
+</form>

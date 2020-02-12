@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/HomeScroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="12dp"
+    android:paddingBottom="20dp"
+    android:scrollbarStyle="outsideOverlay"
+    android:fillViewport="true">
+    <LinearLayout
+        android:id="@+id/contentHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:text="Welcome"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/welcomeMessageHome"
+            android:textStyle="bold"
+            android:textSize="25dip"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:padding="20dip"
+            android:layout_gravity="center"
+            app:fontFamily="@android:string/cancel"
+            android:background="@android:drawable/picture_frame" />
+        <Button
+            android:id="@+id/viewProfile"
+            android:layout_gravity="center"
+            android:background="@drawable/ProfileViewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            android:id="@+id/space1" />
+        <Button
+            android:id="@+id/editProfile"
+            android:layout_gravity="center"
+            android:textSize="30dip"
+            android:background="@drawable/EditProfileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            android:id="@+id/space2" />
+        <Button
+            android:id="@+id/viewTournaments"
+            android:layout_gravity="center"
+            android:textSize="30dip"
+            android:background="@drawable/ViewTournamentsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            android:id="@+id/space3" />
+        <Button
+            android:id="@+id/viewSocialFeed"
+            android:layout_gravity="center"
+            android:textSize="30dip"
+            android:background="@drawable/ViewSocialFeedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            android:id="@+id/space4" />
+        <Button
+            android:id="@+id/addTournament"
+            android:layout_gravity="center"
+            android:textSize="30dip"
+            android:background="@drawable/AddTournamentGamerTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            android:id="@+id/space5" />
+        <Button
+            android:id="@+id/sendMessage"
+            android:layout_gravity="center"
+            android:textSize="30dip"
+            android:background="@drawable/SendMessageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            android:id="@+id/space6" />
+        <Button
+            android:id="@+id/viewInbox"
+            android:layout_gravity="center"
+            android:textSize="30dip"
+            android:background="@drawable/ViewInboxButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            android:id="@+id/space7" />
+        <Button
+            android:id="@+id/logout"
+            android:layout_gravity="center"
+            android:textSize="30dip"
+            android:background="@drawable/LogoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
